@@ -120,3 +120,89 @@ li {
 @media (max-width: 800px) {
   .results-panel { grid-template-columns: 1fr; }
 }
+
+/* Aisle directory */
+.aisle-directory h2 { margin-top: 0; font-size: 1.1rem; }
+.subtitle.small { font-size: 0.85rem; margin-bottom: 1rem; }
+
+.aisle-list { display: flex; flex-direction: column; gap: 0.4rem; }
+
+.aisle-list details {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #0d0f13;
+  padding: 0 0.75rem;
+}
+
+.aisle-list summary {
+  padding: 0.6rem 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  list-style: none;
+}
+
+.aisle-list summary::-webkit-details-marker { display: none; }
+
+.aisle-badge {
+  background: var(--accent);
+  color: #06231e;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.item-count { margin-left: auto; color: var(--muted); font-size: 0.8rem; }
+
+.aisle-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.15rem 1rem;
+  padding: 0 0 0.75rem;
+  margin: 0;
+}
+
+.aisle-items li {
+  padding: 0.15rem 0;
+  border-bottom: none;
+  font-size: 0.85rem;
+  color: var(--muted);
+  display: block;
+}
+
+/* Route steps */
+.route-steps { margin-top: 1.5rem; }
+.route-steps h3 { font-size: 0.95rem; color: var(--muted); margin-bottom: 0.5rem; }
+.route-steps ol { list-style: none; padding: 0; margin: 0; counter-reset: none; }
+
+.route-steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding: 0.6rem 0;
+}
+
+.route-steps li.endpoint { color: var(--muted); font-size: 0.85rem; }
+
+.route-steps .stop-num {
+  background: var(--accent);
+  color: #06231e;
+  font-weight: 700;
+  font-size: 0.75rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.step-label { font-weight: 600; font-size: 0.9rem; }
+.step-items { color: var(--muted); font-size: 0.85rem; margin-top: 0.15rem; }

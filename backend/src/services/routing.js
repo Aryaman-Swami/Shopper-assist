@@ -124,7 +124,7 @@ export async function buildRoute(itemNodes) {
   const fullStops = ["entrance", ...order, "checkout"];
   const stops = fullStops.map((n) => {
     const node = nodes.get(n);
-    return { node: n, x: node.x, y: node.y, type: node.type };
+    return { node: n, x: node.x, y: node.y, type: node.type, aisle_id: node.aisle_id };
   });
 
   return { stops, order, total_distance: Math.round(cost * 100) / 100 };

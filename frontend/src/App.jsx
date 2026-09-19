@@ -1,5 +1,7 @@
-import { useState } from "react";
-import { planTrip } from "./api.js";
+import { useEffect, useState } from "react";
+import { getAisles, planTrip } from "./api.js";
+import AisleDirectory from "./components/AisleDirectory.jsx";
+import RouteSteps from "./components/RouteSteps.jsx";
 import StoreMap from "./components/StoreMap.jsx";
 
 export default function App() {
@@ -9,6 +11,14 @@ export default function App() {
   const [status, setStatus] = useState({ message: "", isError: false });
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [aisles, setAisles] = useState([]);
+
+  useEffect(() => {
+    getAisles(apiBase).then(setAisles).catch(() => setAisles([]));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const categoryByAisle = Object.fromEntries(aisles.map((a) => [a.aisle_id, a.category]));
 
   async function handleSubmit() {
     if (!text.trim() && !file) {
@@ -73,6 +83,8 @@ export default function App() {
           <p className={`status${status.isError ? " error" : ""}`}>{status.message}</p>
         </section>
 
+        <AisleDirectory aisles={aisles} />
+
         {result && (
           <section className="results-panel">
             <div className="items-column">
@@ -112,11 +124,13 @@ export default function App() {
                 Total walking distance: {result.route.total_distance} units across{" "}
                 {result.route.order.length} stop(s).
               </p>
+
+              <RouteSteps route={result.route} aisleByCategory={categoryByAisle} />
             </div>
 
             <div className="map-column">
               <h2>Route map</h2>
-              <StoreMap route={result.route} />
+              <StoreMap aisles={aisles} route={result.route} />
             </div>
           </section>
         )}

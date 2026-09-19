@@ -1,3 +1,10 @@
+export async function getAisles(apiBase) {
+  const res = await fetch(`${apiBase.replace(/\/$/, "")}/aisles`);
+  if (!res.ok) throw new Error("Could not load aisle directory.");
+  const data = await res.json();
+  return data.aisles;
+}
+
 export async function planTrip({ apiBase, text, file }) {
   const formData = new FormData();
   if (file) {

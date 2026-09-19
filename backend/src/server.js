@@ -1,6 +1,7 @@
 import cors from "cors";
 import express from "express";
 import { GeminiNotConfigured } from "./errors.js";
+import { router as aislesRouter } from "./routes/aisles.js";
 import { router as extractRouter } from "./routes/extract.js";
 import { router as matchRouter } from "./routes/match.js";
 import { router as planRouter } from "./routes/plan.js";
@@ -13,6 +14,7 @@ app.use(express.json());
 
 app.get("/health", (req, res) => res.json({ status: "ok" }));
 
+app.use(aislesRouter);
 app.use(extractRouter);
 app.use(matchRouter);
 app.use(routeRouter);
