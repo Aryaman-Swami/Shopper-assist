@@ -105,17 +105,11 @@ li {
   font-size: 0.9rem;
 }
 
-li .stop-num {
-  color: var(--accent);
-  font-weight: 700;
-  margin-right: 0.5rem;
-}
+.unmatched-list li, .oos-list li { color: var(--danger); }
 
-#unmatched-list li, #oos-list li { color: var(--danger); }
+.distance-line { color: var(--muted); font-size: 0.9rem; margin-top: 1rem; }
 
-#distance-line { color: var(--muted); font-size: 0.9rem; margin-top: 1rem; }
-
-#store-map {
+.store-map {
   width: 100%;
   height: 420px;
   background: #0d0f13;

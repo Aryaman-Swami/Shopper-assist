@@ -4,56 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shopper Assist</title>
-<link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-  <header>
-    <h1>Shopper Assist</h1>
-    <p class="subtitle">Paste your shopping list, get the fastest route through the store.</p>
-  </header>
-
-  <main>
-    <section class="input-panel">
-      <label for="api-base">API base URL</label>
-      <input id="api-base" type="text" value="http://localhost:8000">
-
-      <label for="list-text">Shopping list</label>
-      <textarea id="list-text" rows="5" placeholder="e.g. 2 bananas, a dozen eggs, cocacola, band aids"></textarea>
-
-      <div class="or-divider">or</div>
-
-      <label for="list-image">Upload a photo of your list</label>
-      <input id="list-image" type="file" accept="image/*">
-
-      <button id="submit-btn">Plan my route</button>
-      <p id="status" class="status"></p>
-    </section>
-
-    <section class="results-panel" id="results" hidden>
-      <div class="items-column">
-        <h2>Extracted items</h2>
-        <ul id="extracted-list"></ul>
-
-        <div id="unmatched-block" hidden>
-          <h3>Couldn't confidently match</h3>
-          <ul id="unmatched-list"></ul>
-        </div>
-
-        <div id="oos-block" hidden>
-          <h3>Out of stock</h3>
-          <ul id="oos-list"></ul>
-        </div>
-
-        <p id="distance-line"></p>
-      </div>
-
-      <div class="map-column">
-        <h2>Route map</h2>
-        <svg id="store-map" viewBox="-2 -1 14 13" preserveAspectRatio="xMidYMid meet"></svg>
-      </div>
-    </section>
-  </main>
-
-  <script src="src/app.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
