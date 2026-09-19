@@ -1,0 +1,1634 @@
+[
+  {
+    "sku": "SKU1001",
+    "name": "Bananas",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_1",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1002",
+    "name": "Red Apples",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_2",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1003",
+    "name": "Green Apples",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_3",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1004",
+    "name": "Navel Oranges",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_4",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1005",
+    "name": "Seedless Grapes",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_5",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1006",
+    "name": "Strawberries",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_6",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1007",
+    "name": "Blueberries",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_7",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1008",
+    "name": "Avocados",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_8",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1009",
+    "name": "Roma Tomatoes",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_9",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1010",
+    "name": "Cherry Tomatoes",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_10",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1011",
+    "name": "Cucumbers",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_1",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1012",
+    "name": "Iceberg Lettuce",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_2",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1013",
+    "name": "Romaine Lettuce",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_3",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1014",
+    "name": "Baby Spinach",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_4",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1015",
+    "name": "Carrots",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_5",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1016",
+    "name": "Red Onions",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_6",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1017",
+    "name": "Yellow Onions",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_7",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1018",
+    "name": "Russet Potatoes",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_8",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1019",
+    "name": "Sweet Potatoes",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_9",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1020",
+    "name": "Broccoli",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_10",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1021",
+    "name": "Cauliflower",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_1",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1022",
+    "name": "Bell Peppers",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_2",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1023",
+    "name": "Garlic",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_3",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1024",
+    "name": "Ginger Root",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_4",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1025",
+    "name": "Lemons",
+    "category": "Produce",
+    "aisle_id": 1,
+    "shelf_id": "shelf_1_5",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1026",
+    "name": "Whole Milk 1L",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_1",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1027",
+    "name": "2% Milk 1L",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_2",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1028",
+    "name": "Skim Milk 1L",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_3",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1029",
+    "name": "Almond Milk 1L",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_4",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1030",
+    "name": "Oat Milk 1L",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_5",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1031",
+    "name": "Large Eggs (Dozen)",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_6",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1032",
+    "name": "Salted Butter",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_7",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1033",
+    "name": "Unsalted Butter",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_8",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1034",
+    "name": "Cheddar Cheese Block",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_9",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1035",
+    "name": "Mozzarella Shredded",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_10",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1036",
+    "name": "Parmesan Grated",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_1",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1037",
+    "name": "Greek Yogurt",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_2",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1038",
+    "name": "Vanilla Yogurt",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_3",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1039",
+    "name": "Plain Yogurt Tub",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_4",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1040",
+    "name": "Sour Cream",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_5",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1041",
+    "name": "Cream Cheese",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_6",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1042",
+    "name": "Heavy Cream",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_7",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1043",
+    "name": "Half & Half",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_8",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1044",
+    "name": "Cottage Cheese",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_9",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1045",
+    "name": "American Cheese Slices",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_10",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1046",
+    "name": "Feta Cheese",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_1",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1047",
+    "name": "String Cheese Pack",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_2",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1048",
+    "name": "Coffee Creamer",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_3",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1049",
+    "name": "Margarine",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_4",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1050",
+    "name": "Buttermilk",
+    "category": "Dairy & Eggs",
+    "aisle_id": 2,
+    "shelf_id": "shelf_2_5",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1051",
+    "name": "White Sandwich Bread",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_1",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1052",
+    "name": "Whole Wheat Bread",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_2",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1053",
+    "name": "Multigrain Bread",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_3",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1054",
+    "name": "Sourdough Loaf",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_4",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1055",
+    "name": "Bagels (6-pack)",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_5",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1056",
+    "name": "English Muffins",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_6",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1057",
+    "name": "Croissants (4-pack)",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_7",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1058",
+    "name": "Dinner Rolls",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_8",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1059",
+    "name": "Hamburger Buns",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_9",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1060",
+    "name": "Hot Dog Buns",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_10",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1061",
+    "name": "Tortillas (10-pack)",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_1",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1062",
+    "name": "Pita Bread",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_2",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1063",
+    "name": "Chocolate Chip Cookies",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_3",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1064",
+    "name": "Blueberry Muffins",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_4",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1065",
+    "name": "Cinnamon Rolls",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_5",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1066",
+    "name": "Birthday Cake",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_6",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1067",
+    "name": "Baguette",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_7",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1068",
+    "name": "Rye Bread",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_8",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1069",
+    "name": "Naan Bread",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_9",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1070",
+    "name": "Donuts (6-pack)",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_10",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1071",
+    "name": "Brownies",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_1",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1072",
+    "name": "Pound Cake",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_2",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1073",
+    "name": "Pancake Mix",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_3",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1074",
+    "name": "Waffles Frozen-Ready",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_4",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1075",
+    "name": "Pie Crust",
+    "category": "Bakery",
+    "aisle_id": 3,
+    "shelf_id": "shelf_3_5",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1076",
+    "name": "Boneless Chicken Breast",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_1",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1077",
+    "name": "Chicken Thighs",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_2",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1078",
+    "name": "Ground Beef 80/20",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_3",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1079",
+    "name": "Ground Turkey",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_4",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1080",
+    "name": "Pork Chops",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_5",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1081",
+    "name": "Bacon",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_6",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1082",
+    "name": "Italian Sausage",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_7",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1083",
+    "name": "Beef Steak Ribeye",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_8",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1084",
+    "name": "Salmon Fillet",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_9",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1085",
+    "name": "Shrimp (peeled)",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_10",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1086",
+    "name": "Tilapia Fillet",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_1",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1087",
+    "name": "Turkey Deli Slices",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_2",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1088",
+    "name": "Ham Deli Slices",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_3",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1089",
+    "name": "Hot Dogs",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_4",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1090",
+    "name": "Beef Brisket",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_5",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1091",
+    "name": "Chicken Wings",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_6",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1092",
+    "name": "Ground Pork",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_7",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1093",
+    "name": "Cod Fillet",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_8",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1094",
+    "name": "Rotisserie Chicken",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_9",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1095",
+    "name": "Pepperoni",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_10",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1096",
+    "name": "Salami",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_1",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1097",
+    "name": "Bratwurst",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_2",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1098",
+    "name": "Lamb Chops",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_3",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1099",
+    "name": "Crab Legs",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_4",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1100",
+    "name": "Tuna Steaks",
+    "category": "Meat & Seafood",
+    "aisle_id": 4,
+    "shelf_id": "shelf_4_5",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1101",
+    "name": "Frozen Peas",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_1",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1102",
+    "name": "Frozen Corn",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_2",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1103",
+    "name": "Frozen Mixed Vegetables",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_3",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1104",
+    "name": "Frozen French Fries",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_4",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1105",
+    "name": "Frozen Pizza",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_5",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1106",
+    "name": "Vanilla Ice Cream",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_6",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1107",
+    "name": "Chocolate Ice Cream",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_7",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1108",
+    "name": "Frozen Waffles",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_8",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1109",
+    "name": "Frozen Berries Mix",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_9",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1110",
+    "name": "Frozen Chicken Nuggets",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_10",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1111",
+    "name": "Frozen Burritos",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_1",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1112",
+    "name": "Frozen Lasagna",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_2",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1113",
+    "name": "Frozen Shrimp",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_3",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1114",
+    "name": "Popsicles",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_4",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1115",
+    "name": "Frozen Broccoli",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_5",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1116",
+    "name": "Ice Cream Sandwiches",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_6",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1117",
+    "name": "Frozen Dumplings",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_7",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1118",
+    "name": "Frozen Meatballs",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_8",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1119",
+    "name": "Frozen Spinach",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_9",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1120",
+    "name": "Frozen Fruit Bars",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_10",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1121",
+    "name": "Frozen Garlic Bread",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_1",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1122",
+    "name": "Frozen Fish Sticks",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_2",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1123",
+    "name": "Frozen Edamame",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_3",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1124",
+    "name": "Frozen Pie",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_4",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1125",
+    "name": "Frozen Hash Browns",
+    "category": "Frozen",
+    "aisle_id": 5,
+    "shelf_id": "shelf_5_5",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1126",
+    "name": "Spaghetti Pasta",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_1",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1127",
+    "name": "Penne Pasta",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_2",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1128",
+    "name": "White Rice 2kg",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_3",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1129",
+    "name": "Brown Rice 2kg",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_4",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1130",
+    "name": "Rolled Oats",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_5",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1131",
+    "name": "Corn Flakes Cereal",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_6",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1132",
+    "name": "Granola Cereal",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_7",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1133",
+    "name": "Peanut Butter",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_8",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1134",
+    "name": "Strawberry Jam",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_9",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1135",
+    "name": "Honey",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_10",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1136",
+    "name": "Olive Oil",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_1",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1137",
+    "name": "Vegetable Oil",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_2",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1138",
+    "name": "All-Purpose Flour",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_3",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1139",
+    "name": "Granulated Sugar",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_4",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1140",
+    "name": "Brown Sugar",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_5",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1141",
+    "name": "Table Salt",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_6",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1142",
+    "name": "Black Pepper",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_7",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1143",
+    "name": "Ketchup",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_8",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1144",
+    "name": "Mayonnaise",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_9",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1145",
+    "name": "Mustard",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_10",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1146",
+    "name": "Soy Sauce",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_1",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1147",
+    "name": "Canned Black Beans",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_2",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1148",
+    "name": "Canned Chickpeas",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_3",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1149",
+    "name": "Canned Tomatoes",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_4",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1150",
+    "name": "Canned Tuna",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_5",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1151",
+    "name": "Canned Corn",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_6",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1152",
+    "name": "Chicken Broth",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_7",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1153",
+    "name": "Tomato Sauce Jar",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_8",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1154",
+    "name": "Instant Noodles",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_9",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1155",
+    "name": "Popcorn Kernels",
+    "category": "Pantry & Dry Goods",
+    "aisle_id": 6,
+    "shelf_id": "shelf_6_10",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1156",
+    "name": "Coca-Cola 500ml",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_1",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1157",
+    "name": "Diet Coke 500ml",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_2",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1158",
+    "name": "Sprite 500ml",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_3",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1159",
+    "name": "Pepsi 500ml",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_4",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1160",
+    "name": "Orange Juice 1L",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_5",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1161",
+    "name": "Apple Juice 1L",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_6",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1162",
+    "name": "Sparkling Water (6-pack)",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_7",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1163",
+    "name": "Bottled Water (12-pack)",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_8",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1164",
+    "name": "Ground Coffee",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_9",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1165",
+    "name": "Coffee Pods (12ct)",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_10",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1166",
+    "name": "Green Tea Bags",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_1",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1167",
+    "name": "Black Tea Bags",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_2",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1168",
+    "name": "Energy Drink",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_3",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1169",
+    "name": "Sports Drink",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_4",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1170",
+    "name": "Lemonade 1L",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_5",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1171",
+    "name": "Cranberry Juice 1L",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_6",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1172",
+    "name": "Iced Tea 1L",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_7",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1173",
+    "name": "Tonic Water",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_8",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1174",
+    "name": "Club Soda",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_9",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1175",
+    "name": "Hot Chocolate Mix",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_10",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1176",
+    "name": "Beer (6-pack)",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_1",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1177",
+    "name": "Red Wine Bottle",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_2",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1178",
+    "name": "White Wine Bottle",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_3",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1179",
+    "name": "Almond Milk Coffee Creamer",
+    "category": "Beverages",
+    "aisle_id": 7,
+    "shelf_id": "shelf_7_4",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1180",
+    "name": "Paper Towels",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_1",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1181",
+    "name": "Toilet Paper (12-pack)",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_2",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1182",
+    "name": "Facial Tissues",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_3",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1183",
+    "name": "Dish Soap",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_4",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1184",
+    "name": "Laundry Detergent",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_5",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1185",
+    "name": "Fabric Softener",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_6",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1186",
+    "name": "All-Purpose Cleaner",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_7",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1187",
+    "name": "Glass Cleaner",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_8",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1188",
+    "name": "Trash Bags",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_9",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1189",
+    "name": "Aluminum Foil",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_10",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1190",
+    "name": "Plastic Wrap",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_1",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1191",
+    "name": "Sandwich Bags",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_2",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1192",
+    "name": "Shampoo",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_3",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1193",
+    "name": "Conditioner",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_4",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1194",
+    "name": "Body Wash",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_5",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1195",
+    "name": "Bar Soap",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_6",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1196",
+    "name": "Toothpaste",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_7",
+    "stock_qty": 8
+  },
+  {
+    "sku": "SKU1197",
+    "name": "Toothbrush",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_8",
+    "stock_qty": 0
+  },
+  {
+    "sku": "SKU1198",
+    "name": "Deodorant",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_9",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1199",
+    "name": "Hand Sanitizer",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_10",
+    "stock_qty": 20
+  },
+  {
+    "sku": "SKU1200",
+    "name": "Sunscreen",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_1",
+    "stock_qty": 5
+  },
+  {
+    "sku": "SKU1201",
+    "name": "Razors",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_2",
+    "stock_qty": 12
+  },
+  {
+    "sku": "SKU1202",
+    "name": "Shaving Cream",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_3",
+    "stock_qty": 40
+  },
+  {
+    "sku": "SKU1203",
+    "name": "Cotton Swabs",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_4",
+    "stock_qty": 3
+  },
+  {
+    "sku": "SKU1204",
+    "name": "Band-Aids",
+    "category": "Household & Personal Care",
+    "aisle_id": 8,
+    "shelf_id": "shelf_8_5",
+    "stock_qty": 12
+  }
+]

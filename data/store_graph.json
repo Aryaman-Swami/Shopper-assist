@@ -1,0 +1,1194 @@
+{
+  "nodes": [
+    {
+      "id": "entrance",
+      "type": "entrance",
+      "x": -1.0,
+      "y": 0.0
+    },
+    {
+      "id": "checkout",
+      "type": "checkout",
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "id": "top_1",
+      "type": "junction",
+      "x": 1.0,
+      "y": 0.0
+    },
+    {
+      "id": "bottom_1",
+      "type": "junction",
+      "x": 1.0,
+      "y": 10.0
+    },
+    {
+      "id": "shelf_1_1",
+      "type": "shelf",
+      "x": 1.0,
+      "y": 0.9090909090909091,
+      "aisle_id": 1
+    },
+    {
+      "id": "shelf_1_2",
+      "type": "shelf",
+      "x": 1.0,
+      "y": 1.8181818181818181,
+      "aisle_id": 1
+    },
+    {
+      "id": "shelf_1_3",
+      "type": "shelf",
+      "x": 1.0,
+      "y": 2.727272727272727,
+      "aisle_id": 1
+    },
+    {
+      "id": "shelf_1_4",
+      "type": "shelf",
+      "x": 1.0,
+      "y": 3.6363636363636362,
+      "aisle_id": 1
+    },
+    {
+      "id": "shelf_1_5",
+      "type": "shelf",
+      "x": 1.0,
+      "y": 4.545454545454545,
+      "aisle_id": 1
+    },
+    {
+      "id": "shelf_1_6",
+      "type": "shelf",
+      "x": 1.0,
+      "y": 5.454545454545454,
+      "aisle_id": 1
+    },
+    {
+      "id": "shelf_1_7",
+      "type": "shelf",
+      "x": 1.0,
+      "y": 6.363636363636363,
+      "aisle_id": 1
+    },
+    {
+      "id": "shelf_1_8",
+      "type": "shelf",
+      "x": 1.0,
+      "y": 7.2727272727272725,
+      "aisle_id": 1
+    },
+    {
+      "id": "shelf_1_9",
+      "type": "shelf",
+      "x": 1.0,
+      "y": 8.181818181818182,
+      "aisle_id": 1
+    },
+    {
+      "id": "shelf_1_10",
+      "type": "shelf",
+      "x": 1.0,
+      "y": 9.09090909090909,
+      "aisle_id": 1
+    },
+    {
+      "id": "top_2",
+      "type": "junction",
+      "x": 2.0,
+      "y": 0.0
+    },
+    {
+      "id": "bottom_2",
+      "type": "junction",
+      "x": 2.0,
+      "y": 10.0
+    },
+    {
+      "id": "shelf_2_1",
+      "type": "shelf",
+      "x": 2.0,
+      "y": 0.9090909090909091,
+      "aisle_id": 2
+    },
+    {
+      "id": "shelf_2_2",
+      "type": "shelf",
+      "x": 2.0,
+      "y": 1.8181818181818181,
+      "aisle_id": 2
+    },
+    {
+      "id": "shelf_2_3",
+      "type": "shelf",
+      "x": 2.0,
+      "y": 2.727272727272727,
+      "aisle_id": 2
+    },
+    {
+      "id": "shelf_2_4",
+      "type": "shelf",
+      "x": 2.0,
+      "y": 3.6363636363636362,
+      "aisle_id": 2
+    },
+    {
+      "id": "shelf_2_5",
+      "type": "shelf",
+      "x": 2.0,
+      "y": 4.545454545454545,
+      "aisle_id": 2
+    },
+    {
+      "id": "shelf_2_6",
+      "type": "shelf",
+      "x": 2.0,
+      "y": 5.454545454545454,
+      "aisle_id": 2
+    },
+    {
+      "id": "shelf_2_7",
+      "type": "shelf",
+      "x": 2.0,
+      "y": 6.363636363636363,
+      "aisle_id": 2
+    },
+    {
+      "id": "shelf_2_8",
+      "type": "shelf",
+      "x": 2.0,
+      "y": 7.2727272727272725,
+      "aisle_id": 2
+    },
+    {
+      "id": "shelf_2_9",
+      "type": "shelf",
+      "x": 2.0,
+      "y": 8.181818181818182,
+      "aisle_id": 2
+    },
+    {
+      "id": "shelf_2_10",
+      "type": "shelf",
+      "x": 2.0,
+      "y": 9.09090909090909,
+      "aisle_id": 2
+    },
+    {
+      "id": "top_3",
+      "type": "junction",
+      "x": 3.0,
+      "y": 0.0
+    },
+    {
+      "id": "bottom_3",
+      "type": "junction",
+      "x": 3.0,
+      "y": 10.0
+    },
+    {
+      "id": "shelf_3_1",
+      "type": "shelf",
+      "x": 3.0,
+      "y": 0.9090909090909091,
+      "aisle_id": 3
+    },
+    {
+      "id": "shelf_3_2",
+      "type": "shelf",
+      "x": 3.0,
+      "y": 1.8181818181818181,
+      "aisle_id": 3
+    },
+    {
+      "id": "shelf_3_3",
+      "type": "shelf",
+      "x": 3.0,
+      "y": 2.727272727272727,
+      "aisle_id": 3
+    },
+    {
+      "id": "shelf_3_4",
+      "type": "shelf",
+      "x": 3.0,
+      "y": 3.6363636363636362,
+      "aisle_id": 3
+    },
+    {
+      "id": "shelf_3_5",
+      "type": "shelf",
+      "x": 3.0,
+      "y": 4.545454545454545,
+      "aisle_id": 3
+    },
+    {
+      "id": "shelf_3_6",
+      "type": "shelf",
+      "x": 3.0,
+      "y": 5.454545454545454,
+      "aisle_id": 3
+    },
+    {
+      "id": "shelf_3_7",
+      "type": "shelf",
+      "x": 3.0,
+      "y": 6.363636363636363,
+      "aisle_id": 3
+    },
+    {
+      "id": "shelf_3_8",
+      "type": "shelf",
+      "x": 3.0,
+      "y": 7.2727272727272725,
+      "aisle_id": 3
+    },
+    {
+      "id": "shelf_3_9",
+      "type": "shelf",
+      "x": 3.0,
+      "y": 8.181818181818182,
+      "aisle_id": 3
+    },
+    {
+      "id": "shelf_3_10",
+      "type": "shelf",
+      "x": 3.0,
+      "y": 9.09090909090909,
+      "aisle_id": 3
+    },
+    {
+      "id": "top_4",
+      "type": "junction",
+      "x": 4.0,
+      "y": 0.0
+    },
+    {
+      "id": "bottom_4",
+      "type": "junction",
+      "x": 4.0,
+      "y": 10.0
+    },
+    {
+      "id": "shelf_4_1",
+      "type": "shelf",
+      "x": 4.0,
+      "y": 0.9090909090909091,
+      "aisle_id": 4
+    },
+    {
+      "id": "shelf_4_2",
+      "type": "shelf",
+      "x": 4.0,
+      "y": 1.8181818181818181,
+      "aisle_id": 4
+    },
+    {
+      "id": "shelf_4_3",
+      "type": "shelf",
+      "x": 4.0,
+      "y": 2.727272727272727,
+      "aisle_id": 4
+    },
+    {
+      "id": "shelf_4_4",
+      "type": "shelf",
+      "x": 4.0,
+      "y": 3.6363636363636362,
+      "aisle_id": 4
+    },
+    {
+      "id": "shelf_4_5",
+      "type": "shelf",
+      "x": 4.0,
+      "y": 4.545454545454545,
+      "aisle_id": 4
+    },
+    {
+      "id": "shelf_4_6",
+      "type": "shelf",
+      "x": 4.0,
+      "y": 5.454545454545454,
+      "aisle_id": 4
+    },
+    {
+      "id": "shelf_4_7",
+      "type": "shelf",
+      "x": 4.0,
+      "y": 6.363636363636363,
+      "aisle_id": 4
+    },
+    {
+      "id": "shelf_4_8",
+      "type": "shelf",
+      "x": 4.0,
+      "y": 7.2727272727272725,
+      "aisle_id": 4
+    },
+    {
+      "id": "shelf_4_9",
+      "type": "shelf",
+      "x": 4.0,
+      "y": 8.181818181818182,
+      "aisle_id": 4
+    },
+    {
+      "id": "shelf_4_10",
+      "type": "shelf",
+      "x": 4.0,
+      "y": 9.09090909090909,
+      "aisle_id": 4
+    },
+    {
+      "id": "top_5",
+      "type": "junction",
+      "x": 5.0,
+      "y": 0.0
+    },
+    {
+      "id": "bottom_5",
+      "type": "junction",
+      "x": 5.0,
+      "y": 10.0
+    },
+    {
+      "id": "shelf_5_1",
+      "type": "shelf",
+      "x": 5.0,
+      "y": 0.9090909090909091,
+      "aisle_id": 5
+    },
+    {
+      "id": "shelf_5_2",
+      "type": "shelf",
+      "x": 5.0,
+      "y": 1.8181818181818181,
+      "aisle_id": 5
+    },
+    {
+      "id": "shelf_5_3",
+      "type": "shelf",
+      "x": 5.0,
+      "y": 2.727272727272727,
+      "aisle_id": 5
+    },
+    {
+      "id": "shelf_5_4",
+      "type": "shelf",
+      "x": 5.0,
+      "y": 3.6363636363636362,
+      "aisle_id": 5
+    },
+    {
+      "id": "shelf_5_5",
+      "type": "shelf",
+      "x": 5.0,
+      "y": 4.545454545454545,
+      "aisle_id": 5
+    },
+    {
+      "id": "shelf_5_6",
+      "type": "shelf",
+      "x": 5.0,
+      "y": 5.454545454545454,
+      "aisle_id": 5
+    },
+    {
+      "id": "shelf_5_7",
+      "type": "shelf",
+      "x": 5.0,
+      "y": 6.363636363636363,
+      "aisle_id": 5
+    },
+    {
+      "id": "shelf_5_8",
+      "type": "shelf",
+      "x": 5.0,
+      "y": 7.2727272727272725,
+      "aisle_id": 5
+    },
+    {
+      "id": "shelf_5_9",
+      "type": "shelf",
+      "x": 5.0,
+      "y": 8.181818181818182,
+      "aisle_id": 5
+    },
+    {
+      "id": "shelf_5_10",
+      "type": "shelf",
+      "x": 5.0,
+      "y": 9.09090909090909,
+      "aisle_id": 5
+    },
+    {
+      "id": "top_6",
+      "type": "junction",
+      "x": 6.0,
+      "y": 0.0
+    },
+    {
+      "id": "bottom_6",
+      "type": "junction",
+      "x": 6.0,
+      "y": 10.0
+    },
+    {
+      "id": "shelf_6_1",
+      "type": "shelf",
+      "x": 6.0,
+      "y": 0.9090909090909091,
+      "aisle_id": 6
+    },
+    {
+      "id": "shelf_6_2",
+      "type": "shelf",
+      "x": 6.0,
+      "y": 1.8181818181818181,
+      "aisle_id": 6
+    },
+    {
+      "id": "shelf_6_3",
+      "type": "shelf",
+      "x": 6.0,
+      "y": 2.727272727272727,
+      "aisle_id": 6
+    },
+    {
+      "id": "shelf_6_4",
+      "type": "shelf",
+      "x": 6.0,
+      "y": 3.6363636363636362,
+      "aisle_id": 6
+    },
+    {
+      "id": "shelf_6_5",
+      "type": "shelf",
+      "x": 6.0,
+      "y": 4.545454545454545,
+      "aisle_id": 6
+    },
+    {
+      "id": "shelf_6_6",
+      "type": "shelf",
+      "x": 6.0,
+      "y": 5.454545454545454,
+      "aisle_id": 6
+    },
+    {
+      "id": "shelf_6_7",
+      "type": "shelf",
+      "x": 6.0,
+      "y": 6.363636363636363,
+      "aisle_id": 6
+    },
+    {
+      "id": "shelf_6_8",
+      "type": "shelf",
+      "x": 6.0,
+      "y": 7.2727272727272725,
+      "aisle_id": 6
+    },
+    {
+      "id": "shelf_6_9",
+      "type": "shelf",
+      "x": 6.0,
+      "y": 8.181818181818182,
+      "aisle_id": 6
+    },
+    {
+      "id": "shelf_6_10",
+      "type": "shelf",
+      "x": 6.0,
+      "y": 9.09090909090909,
+      "aisle_id": 6
+    },
+    {
+      "id": "top_7",
+      "type": "junction",
+      "x": 7.0,
+      "y": 0.0
+    },
+    {
+      "id": "bottom_7",
+      "type": "junction",
+      "x": 7.0,
+      "y": 10.0
+    },
+    {
+      "id": "shelf_7_1",
+      "type": "shelf",
+      "x": 7.0,
+      "y": 0.9090909090909091,
+      "aisle_id": 7
+    },
+    {
+      "id": "shelf_7_2",
+      "type": "shelf",
+      "x": 7.0,
+      "y": 1.8181818181818181,
+      "aisle_id": 7
+    },
+    {
+      "id": "shelf_7_3",
+      "type": "shelf",
+      "x": 7.0,
+      "y": 2.727272727272727,
+      "aisle_id": 7
+    },
+    {
+      "id": "shelf_7_4",
+      "type": "shelf",
+      "x": 7.0,
+      "y": 3.6363636363636362,
+      "aisle_id": 7
+    },
+    {
+      "id": "shelf_7_5",
+      "type": "shelf",
+      "x": 7.0,
+      "y": 4.545454545454545,
+      "aisle_id": 7
+    },
+    {
+      "id": "shelf_7_6",
+      "type": "shelf",
+      "x": 7.0,
+      "y": 5.454545454545454,
+      "aisle_id": 7
+    },
+    {
+      "id": "shelf_7_7",
+      "type": "shelf",
+      "x": 7.0,
+      "y": 6.363636363636363,
+      "aisle_id": 7
+    },
+    {
+      "id": "shelf_7_8",
+      "type": "shelf",
+      "x": 7.0,
+      "y": 7.2727272727272725,
+      "aisle_id": 7
+    },
+    {
+      "id": "shelf_7_9",
+      "type": "shelf",
+      "x": 7.0,
+      "y": 8.181818181818182,
+      "aisle_id": 7
+    },
+    {
+      "id": "shelf_7_10",
+      "type": "shelf",
+      "x": 7.0,
+      "y": 9.09090909090909,
+      "aisle_id": 7
+    },
+    {
+      "id": "top_8",
+      "type": "junction",
+      "x": 8.0,
+      "y": 0.0
+    },
+    {
+      "id": "bottom_8",
+      "type": "junction",
+      "x": 8.0,
+      "y": 10.0
+    },
+    {
+      "id": "shelf_8_1",
+      "type": "shelf",
+      "x": 8.0,
+      "y": 0.9090909090909091,
+      "aisle_id": 8
+    },
+    {
+      "id": "shelf_8_2",
+      "type": "shelf",
+      "x": 8.0,
+      "y": 1.8181818181818181,
+      "aisle_id": 8
+    },
+    {
+      "id": "shelf_8_3",
+      "type": "shelf",
+      "x": 8.0,
+      "y": 2.727272727272727,
+      "aisle_id": 8
+    },
+    {
+      "id": "shelf_8_4",
+      "type": "shelf",
+      "x": 8.0,
+      "y": 3.6363636363636362,
+      "aisle_id": 8
+    },
+    {
+      "id": "shelf_8_5",
+      "type": "shelf",
+      "x": 8.0,
+      "y": 4.545454545454545,
+      "aisle_id": 8
+    },
+    {
+      "id": "shelf_8_6",
+      "type": "shelf",
+      "x": 8.0,
+      "y": 5.454545454545454,
+      "aisle_id": 8
+    },
+    {
+      "id": "shelf_8_7",
+      "type": "shelf",
+      "x": 8.0,
+      "y": 6.363636363636363,
+      "aisle_id": 8
+    },
+    {
+      "id": "shelf_8_8",
+      "type": "shelf",
+      "x": 8.0,
+      "y": 7.2727272727272725,
+      "aisle_id": 8
+    },
+    {
+      "id": "shelf_8_9",
+      "type": "shelf",
+      "x": 8.0,
+      "y": 8.181818181818182,
+      "aisle_id": 8
+    },
+    {
+      "id": "shelf_8_10",
+      "type": "shelf",
+      "x": 8.0,
+      "y": 9.09090909090909,
+      "aisle_id": 8
+    }
+  ],
+  "edges": [
+    {
+      "a": "top_1",
+      "b": "shelf_1_1",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_1_1",
+      "b": "shelf_1_2",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_1_2",
+      "b": "shelf_1_3",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_1_3",
+      "b": "shelf_1_4",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_1_4",
+      "b": "shelf_1_5",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_1_5",
+      "b": "shelf_1_6",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_1_6",
+      "b": "shelf_1_7",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_1_7",
+      "b": "shelf_1_8",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_1_8",
+      "b": "shelf_1_9",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_1_9",
+      "b": "shelf_1_10",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_1_10",
+      "b": "bottom_1",
+      "dist": 0.91
+    },
+    {
+      "a": "top_2",
+      "b": "shelf_2_1",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_2_1",
+      "b": "shelf_2_2",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_2_2",
+      "b": "shelf_2_3",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_2_3",
+      "b": "shelf_2_4",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_2_4",
+      "b": "shelf_2_5",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_2_5",
+      "b": "shelf_2_6",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_2_6",
+      "b": "shelf_2_7",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_2_7",
+      "b": "shelf_2_8",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_2_8",
+      "b": "shelf_2_9",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_2_9",
+      "b": "shelf_2_10",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_2_10",
+      "b": "bottom_2",
+      "dist": 0.91
+    },
+    {
+      "a": "top_3",
+      "b": "shelf_3_1",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_3_1",
+      "b": "shelf_3_2",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_3_2",
+      "b": "shelf_3_3",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_3_3",
+      "b": "shelf_3_4",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_3_4",
+      "b": "shelf_3_5",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_3_5",
+      "b": "shelf_3_6",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_3_6",
+      "b": "shelf_3_7",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_3_7",
+      "b": "shelf_3_8",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_3_8",
+      "b": "shelf_3_9",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_3_9",
+      "b": "shelf_3_10",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_3_10",
+      "b": "bottom_3",
+      "dist": 0.91
+    },
+    {
+      "a": "top_4",
+      "b": "shelf_4_1",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_4_1",
+      "b": "shelf_4_2",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_4_2",
+      "b": "shelf_4_3",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_4_3",
+      "b": "shelf_4_4",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_4_4",
+      "b": "shelf_4_5",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_4_5",
+      "b": "shelf_4_6",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_4_6",
+      "b": "shelf_4_7",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_4_7",
+      "b": "shelf_4_8",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_4_8",
+      "b": "shelf_4_9",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_4_9",
+      "b": "shelf_4_10",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_4_10",
+      "b": "bottom_4",
+      "dist": 0.91
+    },
+    {
+      "a": "top_5",
+      "b": "shelf_5_1",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_5_1",
+      "b": "shelf_5_2",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_5_2",
+      "b": "shelf_5_3",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_5_3",
+      "b": "shelf_5_4",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_5_4",
+      "b": "shelf_5_5",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_5_5",
+      "b": "shelf_5_6",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_5_6",
+      "b": "shelf_5_7",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_5_7",
+      "b": "shelf_5_8",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_5_8",
+      "b": "shelf_5_9",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_5_9",
+      "b": "shelf_5_10",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_5_10",
+      "b": "bottom_5",
+      "dist": 0.91
+    },
+    {
+      "a": "top_6",
+      "b": "shelf_6_1",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_6_1",
+      "b": "shelf_6_2",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_6_2",
+      "b": "shelf_6_3",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_6_3",
+      "b": "shelf_6_4",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_6_4",
+      "b": "shelf_6_5",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_6_5",
+      "b": "shelf_6_6",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_6_6",
+      "b": "shelf_6_7",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_6_7",
+      "b": "shelf_6_8",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_6_8",
+      "b": "shelf_6_9",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_6_9",
+      "b": "shelf_6_10",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_6_10",
+      "b": "bottom_6",
+      "dist": 0.91
+    },
+    {
+      "a": "top_7",
+      "b": "shelf_7_1",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_7_1",
+      "b": "shelf_7_2",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_7_2",
+      "b": "shelf_7_3",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_7_3",
+      "b": "shelf_7_4",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_7_4",
+      "b": "shelf_7_5",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_7_5",
+      "b": "shelf_7_6",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_7_6",
+      "b": "shelf_7_7",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_7_7",
+      "b": "shelf_7_8",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_7_8",
+      "b": "shelf_7_9",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_7_9",
+      "b": "shelf_7_10",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_7_10",
+      "b": "bottom_7",
+      "dist": 0.91
+    },
+    {
+      "a": "top_8",
+      "b": "shelf_8_1",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_8_1",
+      "b": "shelf_8_2",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_8_2",
+      "b": "shelf_8_3",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_8_3",
+      "b": "shelf_8_4",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_8_4",
+      "b": "shelf_8_5",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_8_5",
+      "b": "shelf_8_6",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_8_6",
+      "b": "shelf_8_7",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_8_7",
+      "b": "shelf_8_8",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_8_8",
+      "b": "shelf_8_9",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_8_9",
+      "b": "shelf_8_10",
+      "dist": 0.91
+    },
+    {
+      "a": "shelf_8_10",
+      "b": "bottom_8",
+      "dist": 0.91
+    },
+    {
+      "a": "top_1",
+      "b": "top_2",
+      "dist": 1.0
+    },
+    {
+      "a": "bottom_1",
+      "b": "bottom_2",
+      "dist": 1.0
+    },
+    {
+      "a": "top_2",
+      "b": "top_3",
+      "dist": 1.0
+    },
+    {
+      "a": "bottom_2",
+      "b": "bottom_3",
+      "dist": 1.0
+    },
+    {
+      "a": "top_3",
+      "b": "top_4",
+      "dist": 1.0
+    },
+    {
+      "a": "bottom_3",
+      "b": "bottom_4",
+      "dist": 1.0
+    },
+    {
+      "a": "top_4",
+      "b": "top_5",
+      "dist": 1.0
+    },
+    {
+      "a": "bottom_4",
+      "b": "bottom_5",
+      "dist": 1.0
+    },
+    {
+      "a": "top_5",
+      "b": "top_6",
+      "dist": 1.0
+    },
+    {
+      "a": "bottom_5",
+      "b": "bottom_6",
+      "dist": 1.0
+    },
+    {
+      "a": "top_6",
+      "b": "top_7",
+      "dist": 1.0
+    },
+    {
+      "a": "bottom_6",
+      "b": "bottom_7",
+      "dist": 1.0
+    },
+    {
+      "a": "top_7",
+      "b": "top_8",
+      "dist": 1.0
+    },
+    {
+      "a": "bottom_7",
+      "b": "bottom_8",
+      "dist": 1.0
+    },
+    {
+      "a": "entrance",
+      "b": "top_1",
+      "dist": 1.0
+    },
+    {
+      "a": "checkout",
+      "b": "top_8",
+      "dist": 1.0
+    }
+  ]
+}
