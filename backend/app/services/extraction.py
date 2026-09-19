@@ -4,7 +4,7 @@ from google.genai import types
 
 from app.services.gemini_client import get_client
 
-EXTRACTION_MODEL = "gemini-2.0-flash"
+EXTRACTION_MODEL = "gemini-3.6-flash"
 
 RESPONSE_SCHEMA = {
     "type": "object",

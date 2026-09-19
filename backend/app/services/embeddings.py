@@ -2,7 +2,7 @@ import numpy as np
 
 from app.services.gemini_client import get_client
 
-EMBEDDING_MODEL = "text-embedding-004"
+EMBEDDING_MODEL = "gemini-embedding-001"
 
 
 def embed_text(text: str) -> list[float]:
