@@ -2,7 +2,7 @@ import { Router } from "express";
 import multer from "multer";
 import { extractFromImage, extractFromText } from "../services/extraction.js";
 import { filterAvailable } from "../services/inventory.js";
-import { matchItem } from "../services/matching.js";
+import { matchItems } from "../services/matching.js";
 import { buildRoute } from "../services/routing.js";
 
 const upload = multer({ storage: multer.memoryStorage() });
@@ -19,18 +19,20 @@ router.post("/plan", upload.single("image"), async (req, res, next) => {
       return res.status(400).json({ detail: "Provide either 'text' or 'image'" });
     }
 
-    const matches = await Promise.all(extracted.map((item) => matchItem(item.name)));
+    const matches = await matchItems(extracted.map((item) => item.name));
 
-    const matchedSkus = matches.filter((m) => m.match && m.matched).map((m) => m.match.sku);
+    const matchedItems = matches
+      .filter((m) => m.match && m.matched)
+      .map((m) => ({ sku: m.match.sku, query: m.query }));
     const unmatched = matches.filter((m) => !m.match || !m.matched).map((m) => m.query);
 
-    const filtered = await filterAvailable(matchedSkus);
+    const filtered = await filterAvailable(matchedItems);
     const itemNodes = filtered.available.map((item) => item.shelf_id);
     const routeData = await buildRoute(itemNodes);
 
     const itemsByStop = {};
     for (const item of filtered.available) {
-      (itemsByStop[item.shelf_id] ??= []).push({ sku: item.sku, name: item.name });
+      (itemsByStop[item.shelf_id] ??= []).push({ sku: item.sku, name: item.name, query: item.query });
     }
 
     res.json({

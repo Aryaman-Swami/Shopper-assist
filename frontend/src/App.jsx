@@ -114,7 +114,10 @@ export default function App() {
                   <h3>Out of stock</h3>
                   <ul className="oos-list">
                     {result.out_of_stock.map((o, i) => (
-                      <li key={i}>{o.name || o.sku}</li>
+                      <li key={i}>
+                        {o.name || o.sku}
+                        {o.query ? ` (matched from "${o.query}")` : ""}
+                      </li>
                     ))}
                   </ul>
                 </div>
