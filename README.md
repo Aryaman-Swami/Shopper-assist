@@ -10,6 +10,60 @@ off (typos, abbreviations, brand vs. generic), checks what's actually in
 stock, and returns a turn-by-turn walking route — entrance to every shelf
 you need to checkout — over a demo grid store, plus an SVG map of the path.
 
+## Demo
+
+Input — a photo of a handwritten shopping list (`docs/demo-handwritten-list.jpeg`):
+
+<img src="docs/demo-handwritten-list.jpeg" alt="Handwritten shopping list: Coke, Fruits, Oil, Milk, Curtains" width="320"/>
+
+What the system does with it (illustrative diagram of the three stages):
+
+![Demo flow](docs/demo-flow.svg)
+
+## Architecture
+
+```mermaid
+flowchart LR
+    U([User]) -->|text or list photo| FE[React + Vite frontend]
+    FE -->|POST /plan| API[Express API]
+
+    subgraph Backend[Node.js backend]
+        API --> EX[Extraction service]
+        EX --> MA[Matching service]
+        MA --> INV[Inventory check]
+        INV --> RT[Routing service<br/>Dijkstra + TSP]
+    end
+
+    EX <-->|structured items| GEM[(Gemini<br/>flash model)]
+    MA <-->|query embeddings| EMB[(Gemini<br/>embeddings)]
+    MA <-->|pg_trgm + pgvector HNSW| DB[(Supabase Postgres)]
+    INV <-->|stock by SKU| DB
+    RT -->|store_graph.json| G[/Store graph/]
+
+    RT -->|route + steps + unmatched / out of stock| API
+    API -->|JSON| FE
+    FE -->|steps + SVG map| U
+```
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant FE as Frontend
+    participant API as /plan
+    participant G as Gemini
+    participant DB as Postgres
+    User->>FE: "Coke, fruits, oil, milk, curtains" (or photo)
+    FE->>API: POST /plan
+    API->>G: extract items
+    G-->>API: [{name, qty, unit}]
+    API->>DB: trigram + vector search per item
+    DB-->>API: candidate SKUs + scores
+    API->>DB: check inventory
+    API->>API: shortest route entrance → shelves → checkout
+    API-->>FE: items, unmatched, route steps, map path
+    FE-->>User: directions + store map
+```
+
 ## How it works
 
 1. **Extract** — Gemini (`gemini-3.6-flash`) turns free text or a list photo
