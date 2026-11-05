@@ -1,143 +1,161 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { getAisles, planTrip } from "./api.js";
 import AisleDirectory from "./components/AisleDirectory.jsx";
+import AppHeader from "./components/AppHeader.jsx";
+import { AlertIcon } from "./components/Icons.jsx";
+import ItemList, { itemStatuses } from "./components/ItemList.jsx";
+import Planner from "./components/Planner.jsx";
 import RouteSteps from "./components/RouteSteps.jsx";
 import StoreMap from "./components/StoreMap.jsx";
 
+const DEFAULT_API = "http://localhost:8000";
+const API_STORAGE_KEY = "shopper-assist:api-base";
+
 export default function App() {
-  const [apiBase, setApiBase] = useState("http://localhost:8000");
-  const [text, setText] = useState("");
-  const [file, setFile] = useState(null);
-  const [status, setStatus] = useState({ message: "", isError: false });
+  const [apiBase, setApiBase] = useState(() => localStorage.getItem(API_STORAGE_KEY) || DEFAULT_API);
+  const [connection, setConnection] = useState({ state: "checking", message: "" });
+  const [aisles, setAisles] = useState([]);
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [aisles, setAisles] = useState([]);
+  const [error, setError] = useState("");
+  const resultsRef = useRef(null);
 
-  useEffect(() => {
-    getAisles(apiBase).then(setAisles).catch(() => setAisles([]));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  const loadAisles = useCallback((base) => {
+    let cancelled = false;
+    setConnection({ state: "checking", message: "" });
+    getAisles(base)
+      .then((data) => {
+        if (cancelled) return;
+        setAisles(data);
+        setConnection({ state: "ok", message: "" });
+      })
+      .catch((err) => {
+        if (cancelled) return;
+        setAisles([]);
+        setConnection({ state: "error", message: err.message });
+      });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  const categoryByAisle = Object.fromEntries(aisles.map((a) => [a.aisle_id, a.category]));
+  useEffect(() => loadAisles(apiBase), [apiBase, loadAisles]);
 
-  async function handleSubmit() {
-    if (!text.trim() && !file) {
-      setStatus({ message: "Enter a list or choose a photo first.", isError: true });
-      return;
-    }
+  function handleApiBaseChange(next) {
+    localStorage.setItem(API_STORAGE_KEY, next);
+    if (next === apiBase) loadAisles(next);
+    else setApiBase(next);
+  }
 
+  async function handleSubmit({ text, file }) {
     setLoading(true);
-    setStatus({ message: "Planning your route...", isError: false });
-    setResult(null);
-
+    setError("");
     try {
-      const data = await planTrip({ apiBase, text: text.trim(), file });
+      const data = await planTrip({ apiBase, text, file });
       setResult(data);
-      setStatus({ message: "", isError: false });
+      // On stacked (mobile) layouts the results are below the fold.
+      if (window.matchMedia("(max-width: 1023px)").matches) {
+        requestAnimationFrame(() => resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }));
+      }
     } catch (err) {
-      setStatus({ message: err.message, isError: true });
+      setError(err.message);
     } finally {
       setLoading(false);
     }
   }
 
+  const categoryByAisle = useMemo(() => Object.fromEntries(aisles.map((a) => [a.aisle_id, a.category])), [aisles]);
+  const items = useMemo(() => (result ? itemStatuses(result) : []), [result]);
+  const routeAisles = useMemo(
+    () => new Set(result ? result.route.stops.filter((s) => s.type === "shelf").map((s) => s.aisle_id) : []),
+    [result]
+  );
+
+  const found = items.filter((i) => i.status === "found").length;
+  const issues = items.length - found;
+
   return (
-    <>
-      <header>
-        <h1>Shopper Assist</h1>
-        <p className="subtitle">Paste your shopping list, get the fastest route through the store.</p>
-      </header>
+    <div className="app">
+      <AppHeader apiBase={apiBase} onApiBaseChange={handleApiBaseChange} connection={connection} />
 
-      <main>
-        <section className="input-panel">
-          <label htmlFor="api-base">API base URL</label>
-          <input
-            id="api-base"
-            type="text"
-            value={apiBase}
-            onChange={(e) => setApiBase(e.target.value)}
-          />
+      <main className="layout">
+        <div className="layout__rail">
+          <Planner onSubmit={handleSubmit} loading={loading} error={error} />
+          <AisleDirectory aisles={aisles} connection={connection} routeAisles={routeAisles} />
+        </div>
 
-          <label htmlFor="list-text">Shopping list</label>
-          <textarea
-            id="list-text"
-            rows={5}
-            placeholder="e.g. 2 bananas, a dozen eggs, cocacola, band aids"
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-          />
+        <div className="layout__main" ref={resultsRef}>
+          <section className="card card--map" aria-labelledby="map-title">
+            <div className="map-head">
+              <div>
+                <h2 id="map-title" className="card__title">
+                  {result ? "Your route" : "Store map"}
+                </h2>
+                {!result && (
+                  <p className="card__sub">Plan a trip and your route through the store will be drawn here.</p>
+                )}
+              </div>
 
-          <div className="or-divider">or</div>
-
-          <label htmlFor="list-image">Upload a photo of your list</label>
-          <input
-            id="list-image"
-            type="file"
-            accept="image/*"
-            onChange={(e) => setFile(e.target.files[0] ?? null)}
-          />
-
-          <button onClick={handleSubmit} disabled={loading}>
-            Plan my route
-          </button>
-          <p className={`status${status.isError ? " error" : ""}`}>{status.message}</p>
-        </section>
-
-        <AisleDirectory aisles={aisles} />
-
-        {result && (
-          <section className="results-panel">
-            <div className="items-column">
-              <h2>Extracted items</h2>
-              <ul>
-                {result.extracted_items.map((item, i) => (
-                  <li key={i}>
-                    {item.qty ?? 1}
-                    {item.unit ? ` ${item.unit}` : ""} {item.name}
-                  </li>
-                ))}
-              </ul>
-
-              {result.unmatched?.length > 0 && (
-                <div>
-                  <h3>Couldn't confidently match</h3>
-                  <ul className="unmatched-list">
-                    {result.unmatched.map((q, i) => (
-                      <li key={i}>{q}</li>
-                    ))}
-                  </ul>
-                </div>
+              {result && (
+                <dl className="stats">
+                  <div className="stat">
+                    <dt>Stops</dt>
+                    <dd>{result.route.order.length}</dd>
+                  </div>
+                  <div className="stat">
+                    <dt>Distance</dt>
+                    <dd>
+                      {result.route.total_distance}
+                      <span className="stat__unit">units</span>
+                    </dd>
+                  </div>
+                  <div className="stat">
+                    <dt>Items found</dt>
+                    <dd>
+                      {found}
+                      <span className="stat__unit">of {items.length}</span>
+                    </dd>
+                  </div>
+                </dl>
               )}
-
-              {result.out_of_stock?.length > 0 && (
-                <div>
-                  <h3>Out of stock</h3>
-                  <ul className="oos-list">
-                    {result.out_of_stock.map((o, i) => (
-                      <li key={i}>
-                        {o.name || o.sku}
-                        {o.query ? ` (matched from "${o.query}")` : ""}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              <p className="distance-line">
-                Total walking distance: {result.route.total_distance} units across{" "}
-                {result.route.order.length} stop(s).
-              </p>
-
-              <RouteSteps route={result.route} aisleByCategory={categoryByAisle} />
             </div>
 
-            <div className="map-column">
-              <h2>Route map</h2>
-              <StoreMap aisles={aisles} route={result.route} />
-            </div>
+            <StoreMap aisles={aisles} route={result?.route} loading={loading} />
+
+            <ul className="legend" aria-label="Map legend">
+              <li>
+                <span className="legend__swatch legend__swatch--endpoint" /> Entrance / checkout
+              </li>
+              <li>
+                <span className="legend__swatch legend__swatch--stop" /> Stop
+              </li>
+              <li>
+                <span className="legend__swatch legend__swatch--path" /> Walking path
+              </li>
+              <li>
+                <span className="legend__swatch legend__swatch--visited" /> Aisle on route
+              </li>
+            </ul>
           </section>
-        )}
+
+          {result && issues > 0 && (
+            <p className="alert alert--warn">
+              <AlertIcon size={16} />
+              <span>
+                {issues} item{issues === 1 ? "" : "s"} on your list {issues === 1 ? "isn't" : "aren't"} on the route.
+                Check "Your list" below for details.
+              </span>
+            </p>
+          )}
+
+          {result && (
+            <div className="results-grid">
+              <RouteSteps route={result.route} categoryByAisle={categoryByAisle} />
+              <ItemList items={items} />
+            </div>
+          )}
+        </div>
       </main>
-    </>
+    </div>
   );
 }

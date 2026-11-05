@@ -1,32 +1,61 @@
-export default function RouteSteps({ route, aisleByCategory }) {
-  const steps = route.stops.map((stop, idx) => {
-    if (stop.type === "entrance") return { key: "entrance", label: "Start at the entrance" };
-    if (stop.type === "checkout") return { key: "checkout", label: "Head to checkout" };
+import { BagIcon, DoorIcon } from "./Icons.jsx";
 
-    const items = route.items_by_stop[stop.node] || [];
-    const category = aisleByCategory[stop.aisle_id] || "Unknown";
-    return {
-      key: stop.node,
-      label: `Aisle ${stop.aisle_id} — ${category}`,
-      items: items.map((i) => i.name),
-      stepNum: route.order.indexOf(stop.node) + 1,
-    };
-  });
+export default function RouteSteps({ route, categoryByAisle }) {
+  const stops = route.stops.filter((s) => s.type === "shelf");
+  // Neighbouring stops in the same aisle read better grouped as one step.
+  const sameAisleAsPrev = (i) => i > 0 && stops[i - 1].aisle_id === stops[i].aisle_id;
 
   return (
-    <div className="route-steps">
-      <h3>Walking directions</h3>
-      <ol>
-        {steps.map((step) => (
-          <li key={step.key} className={step.items ? "stop" : "endpoint"}>
-            {step.stepNum ? <span className="stop-num">{step.stepNum}</span> : null}
-            <div>
-              <div className="step-label">{step.label}</div>
-              {step.items && <div className="step-items">{step.items.join(", ")}</div>}
-            </div>
-          </li>
-        ))}
+    <section className="card" aria-labelledby="steps-title">
+      <div className="card__head">
+        <h2 id="steps-title" className="card__title">
+          Walking directions
+        </h2>
+      </div>
+
+      <ol className="timeline">
+        <li className="timeline__item timeline__item--endpoint">
+          <span className="timeline__marker">
+            <DoorIcon size={14} />
+          </span>
+          <div className="timeline__body">
+            <div className="timeline__label">Start at the entrance</div>
+          </div>
+        </li>
+
+        {stops.map((stop, i) => {
+          const items = route.items_by_stop[stop.node] || [];
+          return (
+            <li key={stop.node} className="timeline__item">
+              <span className="timeline__marker timeline__marker--stop">{route.order.indexOf(stop.node) + 1}</span>
+              <div className="timeline__body">
+                <div className="timeline__label">
+                  {sameAisleAsPrev(i) ? "Continue along " : ""}Aisle {stop.aisle_id}
+                  <span className="timeline__cat">{categoryByAisle[stop.aisle_id] || "Unknown section"}</span>
+                </div>
+                {items.length > 0 && (
+                  <ul className="chips">
+                    {items.map((item) => (
+                      <li key={item.sku} className="chip">
+                        {item.name}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </li>
+          );
+        })}
+
+        <li className="timeline__item timeline__item--endpoint">
+          <span className="timeline__marker">
+            <BagIcon size={14} />
+          </span>
+          <div className="timeline__body">
+            <div className="timeline__label">Head to checkout</div>
+          </div>
+        </li>
       </ol>
-    </div>
+    </section>
   );
 }
